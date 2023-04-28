@@ -1,0 +1,360 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.parent{
+    position: relative;
+    top: 100px;
+    /* column-gap: 20px; 
+    row-gap: 10px; */
+}
+
+.row1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* column-gap: 20px;
+    row-gap: 40px; */
+    gap: 20px;
+}
+
+.row2{
+    /* position: absolute;
+    top: 10px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* column-gap: 20px;
+    row-gap: 40px; */
+    gap: 20px;
+}
+
+.box{
+    height: 121px;
+    width: 250px;
+    color: white;
+    text-align: center;
+    align-items: baseline;
+    padding-top: 91px;
+    background-color: rgb(78, 186, 78);
+}
+
+.box1{
+    transition: 1s linear;
+}
+
+.box1:hover{
+      background-color: red;
+      color: white;
+      position: relative;
+      left: 10px;
+      cursor: pointer;
+}
+
+.box2{
+    transition: 1s linear;
+}
+
+.box2:hover{
+      background-color: red;
+      color: white;
+      position: relative;
+      right: 10px;
+      cursor: pointer;
+}
+
+
+.box3{
+    transition: 1s linear;
+}
+
+.box3:hover{
+      background-color: red;
+      color: white;
+      position: relative;
+      bottom: 10px;
+      cursor: pointer;
+}
+
+
+.box4{
+    transition: 1s linear;
+}
+
+.box4:hover{
+      background-color: red;
+      color: white;
+      position: relative;
+      top: 10px;
+      cursor: pointer;
+}
+
+
+.box5{
+    transition: 0.5s linear;
+}
+
+.box5:hover{
+      background-color: red;
+      color: white;
+      cursor: pointer;
+      position: relative;
+      bottom: 45px;
+      height: 201px;
+      width: 330px;
+}
+
+
+.box6{
+    transition: 0.5s linear;
+}
+
+.box6:hover{
+      background-color: red;
+      color: white;
+      cursor: pointer;
+      position: relative;
+      top: 25px;
+      height:61px;
+      width: 190px;
+}
+
+.box7{
+    transition: 0.5s linear;
+}
+
+.box7:hover{
+      background-color: red;
+      color: white;
+      cursor: pointer;
+      position: relative;
+      border-radius: 50%;
+}
+
+.box8{
+    transition: 0.5s linear;
+}
+
+.box8:hover{
+      background-color: red;
+      color: white;
+      cursor: pointer;
+      position: relative;
+      width: 300px;
+}
+
+.box9{
+    transition: 0.5s linear;
+}
+
+.box9:hover{
+      background-color: red;
+      color: white;
+      cursor: pointer;
+      position: relative;
+      bottom: 25px;
+      height: 171px;
+}
+
+.box10{
+    transition: 0.5s linear;
+}
+
+.box10:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    transform: rotate(25deg);
+    
+}
+
+
+@media screen and (min-width: 340px) and (max-width: 1326px){
+    body{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        background-color: black;
+    }
+    
+    .parent{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        position: relative;
+        top: 100px;
+        /* column-gap: 20px; 
+        row-gap: 10px; */
+    }
+    
+    .row1{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        /* column-gap: 20px;
+        row-gap: 40px; */
+        gap: 20px;
+    }
+    
+    .row2{
+        /* position: absolute;
+        top: 10px; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        /* column-gap: 20px;
+        row-gap: 40px; */
+        gap: 20px;
+    }
+    
+    .box{
+        height: 121px;
+        width: 250px;
+        color: white;
+        text-align: center;
+        align-items: baseline;
+        padding-top: 91px;
+        background-color: rgb(78, 186, 78);
+    }
+    
+    .box1{
+        transition: 1s linear;
+    }
+    
+    .box1:hover{
+          background-color: red;
+          color: white;
+          position: relative;
+          left: 10px;
+          cursor: pointer;
+    }
+    
+    .box2{
+        transition: 1s linear;
+    }
+    
+    .box2:hover{
+          background-color: red;
+          color: white;
+          position: relative;
+          right: 10px;
+          cursor: pointer;
+    }
+    
+    
+    .box3{
+        transition: 1s linear;
+    }
+    
+    .box3:hover{
+          background-color: red;
+          color: white;
+          position: relative;
+          bottom: 10px;
+          cursor: pointer;
+    }
+    
+    
+    .box4{
+        transition: 1s linear;
+    }
+    
+    .box4:hover{
+          background-color: red;
+          color: white;
+          position: relative;
+          top: 10px;
+          cursor: pointer;
+    }
+    
+    
+    .box5{
+        transition: 0.5s linear;
+    }
+    
+    .box5:hover{
+          background-color: red;
+          color: white;
+          cursor: pointer;
+          position: relative;
+          bottom: 45px;
+          height: 201px;
+          width: 330px;
+    }
+    
+    
+    .box6{
+        transition: 0.5s linear;
+    }
+    
+    .box6:hover{
+          background-color: red;
+          color: white;
+          cursor: pointer;
+          position: relative;
+          top: 25px;
+          height:61px;
+          width: 190px;
+    }
+    
+    .box7{
+        transition: 0.5s linear;
+    }
+    
+    .box7:hover{
+          background-color: red;
+          color: white;
+          cursor: pointer;
+          position: relative;
+          border-radius: 50%;
+    }
+    
+    .box8{
+        transition: 0.5s linear;
+    }
+    
+    .box8:hover{
+          background-color: red;
+          color: white;
+          cursor: pointer;
+          position: relative;
+          width: 300px;
+    }
+    
+    .box9{
+        transition: 0.5s linear;
+    }
+    
+    .box9:hover{
+          background-color: red;
+          color: white;
+          cursor: pointer;
+          position: relative;
+          bottom: 25px;
+          height: 171px;
+    }
+    
+    .box10{
+        transition: 0.5s linear;
+    }
+    
+    .box10:hover{
+        background-color: red;
+        color: white;
+        cursor: pointer;
+        position: relative;
+        transform: rotate(25deg);
+        
+    }
+}
+
+
+
+
+
+
